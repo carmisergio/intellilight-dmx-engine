@@ -1,1 +1,13 @@
-# Lumize DMX Engine configuration file #
+# Lights
+dmx channels: 100
+render fps: 60
+default transition: 1 #s
+
+# MQTT
+broker host: 192.168.1.100
+broker port: 1883
+client name: SmarDMXer
+autentication: True
+user: user
+password: password
+base topic: mansardalight
